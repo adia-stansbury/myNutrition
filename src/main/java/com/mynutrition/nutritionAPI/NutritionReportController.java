@@ -19,7 +19,7 @@ public class NutritionReportController {
 	// 100g of cream of wheat
 	// over period of time - forNumberOfDays
 	
-	@PostMapping("/nutritionReport")
+	@PostMapping("/report")
 	// TODO: fix method
 	boolean newNutritionReport(@RequestBody NutritionReport newNutritionReport) {
 		return newNutritionReport.isNutritionComplete();
